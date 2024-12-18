@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React in HTML</title>
+    <style>
+        #root
+        {
+            border: 2px solid black;
+        }
+    </style>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script type="text/babel">
+        let firstReactElement = React.createElement("h3" , {className:"ABCD", style:{color:"green",backgroundColor:"black"}} ,"React Element has been created");
+        let secondReactElement = React.createElement("h3" , null ,firstReactElement);
+
+        // ReactDOM.render(secondReactElement,document.body);
+        
+        // JSX
+        function Element(props){
+        return (<h1 id="Hello">
+            <h2>{props.name}</h2>
+            <h2>{props.id}</h2>
+            </h1>);
+        }
+        function Repeat()
+        {
+            return(
+                <h3>
+                    <Element name="Pranav" id="1"></Element>
+                    <Element/>
+                </h3>
+            )
+        }
+
+
+        ReactDOM.render(<Repeat/>, document.getElementById("root"));
+
+
+        
+    </script>
+</body>
+</html>
+
+

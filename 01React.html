@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React First Class</title>
+    <style>
+        #container
+        {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <h1>Heading</h1>
+    <h1>Heading</h1>
+    <h1>Heading</h1>
+    <h1>Heading</h1>
+    <h1>Heading</h1>
+    <div id="container">
+
+    </div>
+
+    <script>
+        let container = document.getElementById("container")
+        function h2(data1)
+        {
+            let h2 = document.createElement("h2");
+            h2.innerHTML = `Heading using ${data1}`;
+            container.append(h2);
+        }
+        h2("Dynamic Data");
+        h2();
+        h2();
+        h2();
+
+        var arr = [1,2,3,4] 
+
+        arr[2]
+
+        var student1 = {
+            name : "Pranav",
+            id : 1
+        }
+
+        // Programming Basics
+        // Functions
+        // Arrays
+        // Objects
+    </script>
+</body>
+</html>
