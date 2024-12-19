@@ -1,10 +1,11 @@
 import React from "react"
 import New from "./New"
-import Header from "./components/Header"
-import MainSection from "./components/MainSection"
-import Footer from "./components/Footer"
-import About from "./pages/About"
-import ContactUs from "./pages/ContactUs"
+import Header from "./components/header/Header"
+import MainSection from "./components/mainsection/MainSection"
+import Footer from "./components/footer/Footer"
+import About from "./pages/about/About"
+import ContactUs from "./pages/contactus/ContactUs"
+
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div>
       Home Page
       <Header></Header>
-      <MainSection></MainSection>
+      <MainSection name="Pranav"></MainSection>
       <Footer></Footer>
       <About></About>
       <ContactUs></ContactUs>
