@@ -1,5 +1,5 @@
 .imageslider
 {
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
+    border: 3px solid rgb(109, 237, 126);
 }
