@@ -1,0 +1,25 @@
+.ProfileCard
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder ;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border: 5px solid pink;
+}
+.cardDetails
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+img
+{
+    width: 500px;
+    height: 280px;
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

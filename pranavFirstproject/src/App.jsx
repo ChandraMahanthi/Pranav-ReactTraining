@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer"
 import About from "./pages/about/About"
 import ContactUs from "./pages/contactus/ContactUs"
 import ImageSlider from "./components/imageSlider/ImageSlider"
+import Cards from "./components/profileCards/Cards"
 import { data } from "./Data"
 
 import './App.css'
@@ -25,6 +26,7 @@ function App() {
       <Footer></Footer>
       <About></About>
       <ContactUs></ContactUs>
+      <Cards></Cards>
     </div>
   )
 }
