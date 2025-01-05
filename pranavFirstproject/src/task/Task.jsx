@@ -46,7 +46,7 @@ function addUser()
         <br />
         <button onClick={addUser}>Submit</button>
         
-        <Table usersList={usersList}></Table>
+        <Table usersList={usersList} setUsersList={setUsersList}></Table>
     </div>
   )
 }

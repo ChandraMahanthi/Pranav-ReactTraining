@@ -1,11 +1,15 @@
 import React from 'react'
 import './Table.css'
 
-function Table({usersList}) {
+function Table({usersList , setUsersList}) {
+function remove(index)
+{
+  usersList.splice(index,1);
+  setUsersList([...usersList])
+}
   return (
     <div>
         <table>
-           
                 <thead>
                   <tr>
                     <td>Name</td>
@@ -21,7 +25,9 @@ function Table({usersList}) {
                         <td>{element.name}</td>
                         <td>{element.password}</td>
                         <td>{element.email}</td>
-                        <td><button>Delete</button></td>
+                        <td><button onClick={()=>{
+                          remove(index)
+                        }}>Delete</button></td>
                       </tr>
                     })
                   }
