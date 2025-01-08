@@ -10,7 +10,8 @@ import React from "react"
 // import { data } from "./Data"
 // import Toggle from './components/toggle/Toggle'
 // import Normal from "./stateBehaviours/Normal"
-import Task from "./task/Task"
+// import Task from "./task/Task"
+import Map from "./Map"
 
 import './App.css'
 
@@ -32,7 +33,8 @@ function App() {
       <Cards></Cards> */}
     {/* <Toggle></Toggle> */}
     {/* <Normal></Normal> */}
-  <Task></Task>
+  {/* <Task></Task> */}
+  <Map></Map>
     </div>
   )
 }
