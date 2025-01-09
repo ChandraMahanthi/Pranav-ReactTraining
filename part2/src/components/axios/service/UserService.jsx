@@ -1,10 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
-function Users() {
-    const sendRequest = ()=>
-    {
-        var promiseObject = axios.get("https://randomuser.me/api/?results=10");
+export function getUsers() {
+    var promiseObject = axios.get("https://randomuser.me/api/?results=10");
 
         promiseObject.then(
             (users)=>{
@@ -17,12 +15,11 @@ function Users() {
                     // console.log("Catch block executed==> FAILURE DATA");
 
                 });
-    }
   return (
     <div>
-        <button onClick={sendRequest}>CLICK ME</button>
+
     </div>
   )
 }
 
-export default Users
+// export default UserService
