@@ -1,0 +1,9 @@
+.card
+{
+    font-family:cursive;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height : 450px;
+    box-shadow: 5px 5px 5px black;
+}
