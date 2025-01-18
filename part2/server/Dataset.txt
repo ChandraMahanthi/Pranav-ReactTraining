@@ -1,0 +1,28 @@
+Fakestore API-
+https://fakestoreapi.com/
+
+The array of all the categories:-
+https://fakestoreapi.com/products/categories
+
+Dataset of products:-
+https://fakestoreapi.com/products
+
+Dataset of electronics:-
+https://fakestoreapi.com/products/category/electronics
+
+Dataset of jewelery:-
+https://fakestoreapi.com/products/category/jewelery
+
+Dataset of men's clothing:-
+https://fakestoreapi.com/products/category/men's%20clothing
+
+Dataset of women's clothing:-
+https://fakestoreapi.com/products/category/women's%20clothing
+
+
+
+C - Create - Post
+R - Read   - Get
+U - Update - Put
+D - Delete - Delete
+
