@@ -6,6 +6,7 @@ import Electronics from './components/electronics/Electronics';
 import Jewelery from './components/jewelery/Jewelery';
 import Mens from './components/menclothing/Mens';
 import Women from './components/womenclothing/Women';
+import PageNotFound from './components/pageNotFound/PageNotFound';
 import Comp from './Comp';
 import { Route,Routes } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path={'/jewelery'} element={<Jewelery/>}/>
         <Route path={'/mens'} element={<Mens/>}/>
         <Route path={'/womens'} element={<Women/>}/>
+        <Route path={'*'} element = {<PageNotFound/>}/>
       </Routes>
       {/* <Home></Home>
       <Electronics></Electronics>

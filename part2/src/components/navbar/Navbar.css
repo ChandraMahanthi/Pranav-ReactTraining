@@ -2,9 +2,37 @@
 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(224, 216, 216);
 }
 a
 {
     text-decoration: none;
     font-size: larger;
+    transition-property: all;
+    transition-duration: 0.5s;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+a:hover
+{
+    font-size: x-large;
+    box-shadow: 3px 3px 5px black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+}
+a:active
+{
+    font-size: x-large;
+    box-shadow: 3px 3px 5px black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+    width: 165px;
+    height: 35px;
+    line-height: 35px;
 }

@@ -1,0 +1,17 @@
+Wild Route:-
+<Route path={'*'} element = {<PageNotFound/>}
+
+Mount Phase:-
+
+setup function with dependency array==> will be called
+setup function without dependency array==> will be called
+
+Update Phase:-
+
+setup function with dependency array==> will not be called
+setup function without depenedency array==> will be called
+
+Unmount Phase:-
+
+return function inside the setup function will be called just before the component is being unmounted
+
